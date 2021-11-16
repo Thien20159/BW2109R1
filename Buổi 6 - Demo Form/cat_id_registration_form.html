@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat City Registration</title>
+</head>
+
+<body>
+
+    <!-- 
+        input type="number" chỉ nhập số
+        input type="text" nhập văn bản
+        input type="radio" chọn 1 trong nhiều option
+        input type="checkbox" chọn 1 hoặc nhiều option
+        input type="password" ẩn toàn bộ thông tin nhập
+        input type="select" chọn 1 trong nhiều option
+     -->
+
+    <h1>Cat City ID Registratione</h1>
+
+    <img src="./meo.jpg" width="250" height="250" contronls alt="Cat photo">
+
+    <form action="">
+        Name: <br>
+        <input type="text" name="cat-name">
+        <br>
+        <br>
+        Age: <br>
+        <input type="number" name="cat-age">
+        <br>
+        <br>
+        Gender: <br>
+        <input type="radio" name="cat-gender" value="male"> Male
+        <input type="radio" name="cat-gender" value="female"> Female
+        <input type="radio" name="cat-gender" value="other"> Other
+        <br>    
+        <br>
+        Fur_color: <br>
+        <input type="radio" name="Cat_Fur_color" value="White"> White
+        <input type="radio" name="Cat_Fur_color" value="Black"> Black
+        <input type="radio" name="Cat_Fur_color" value="Yellow"> Yellow
+        <input type="radio" name="Cat_Fur_color"value="Grey"> Grey
+        <input type="radio" name="Cat_Fur_color" value="Brown"> Brown
+        <br>
+        <br>
+        Cat loves to: <br>
+        <input type="checkbox" name="Cat-loves-to" value="Eat"> Eat
+        <input type="checkbox" name="Cat-loves-to" value="Drink-Milk"> Drink-Milk
+        <input type="checkbox" name="Cat-loves-to" value="Sleep"> Sleep
+        <br>
+        <br>
+        Cat does't loves to: <br>
+        <input type="checkbox" name="Cat-does't-loves-to" value="Stale-food"> Stale-food
+        <input type="checkbox" name="Cat-does't-loves-to" value="Flavored-pills-make-them-nauseous"> Flavored-pills-make-them-nauseous
+        <input type="checkbox" name="Cat-does't-loves-to" value="Strong-stroking-action"> Strong-stroking-actionn
+        <br>
+        <br>
+        Cat Breed: <br>
+        <select name="cat-breed" >
+            <option value="Abyssinian">Abyssinian</option>
+            <option value="American Bobtail">American Bobtail</option>
+            <option value="American Curl">American Curl</option>
+            <option value="American Shorthair">American Shorthair</option>
+            <option value="Bengal">Bengal</option>
+        </select>
+        <br>
+        <br>
+        Cat ID: <br>
+        <input type="password">
+        <br>
+        <br>
+        Other infomation: <br>
+        <textarea name="cat-infomation" rows="5"></textarea>
+
+    <!-- 
+        textarea -> nhập thông tin không giới hạn
+     -->
+        <br>
+        <input type="reset" value="Clear">
+        
+        <button type="submit">Finish!</button>
+    </form>
+
+
+    <!-- 
+        name
+        gender
+        fur-color
+        species
+        age
+        eye-color
+        address
+        favorite things
+
+        other information
+     -->
+
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Review</title>
+</head>
+<body>
+    <h1>HTML: HyperText Markup Language </h1>
+    <p>Tim Berners-Lee invented the first browser at CERN,to enable researchers to share their research with echother.</p>
+    <a href="https://www.youtube.com/" target="_blank">Reach more about the history of HTML</a><br></br>
+    <img src="https://caodangquoctehanoi.edu.vn/wp-content/uploads/2021/07/Nganh-CNTT-1-1.jpg" alt="anh cong nghe thong tin"><br></br>
+    <a href="https://www.google.com/search?q=image+CERN&oq=image+CERN&aqs=chrome..69i57j0i22i30l5j0i10i22i30j0i22i30l3.4354j0j7&sourceid=chrome&ie=UTF-8" target="_blank">image courtesy CERN</a>
+</body>
+</html>
+
+
+
+ 
