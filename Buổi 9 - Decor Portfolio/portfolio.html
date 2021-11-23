@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-sequiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Le Hoang Thien</title>
+    <style>
+        body {
+            background-color: #BBF2DE ;
+            font-size: 19px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h2 {
+            background-color:yellow;
+            text-decoration: underline;
+            font-style: italic;
+        }
+
+        h3 {
+            color: #210660  ;
+            letter-spacing: 2px;
+        }
+
+        .skill-item {
+            line-height: 30px;
+
+        }
+
+        ol > li {
+            margin-left : 30px;
+        }
+
+        ul {
+            list-style-type:square ;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        table, th, td {
+            border: 2px solid orange;
+        }
+
+        td, th {
+            line-height: 30px;
+        }
+
+        .profile-image {
+        
+            height: 250px;
+            width: auto;
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Ngày: 6-11-2021
+        Bài học: Cấu trúc cơ bản của HTML-->
+    <h1>Le Hoang Thien's portfolio</h1>
+
+    <h2>Personal Information</h2>
+
+    <!-- <img src="https://toigingiuvedep.vn/wp-content/uploads/2021/01/anh-avatar-dep-dai-dien-facebook-zalo.jpg" alt=""> -->
+    <img class="profile-image" src="./images/avatar-dep-nhat-111_112148.jpg" alt="">
+    <!-- <img src="./images/anh-avatar-dep.jpg" alt=""> -->
+
+    <h3>Full Name</h3>
+    <p>Le Hoang Thien</p>
+
+    <h3>Date of birth</h3>
+    <p>28/7/2003</p>
+
+    <h3>Workplace</h3>
+    <p>Home</p>
+
+    <h3>Address</h3>
+    <p>An Giang</p>
+
+    <h3>Phone</h3>
+    <p>0354659811</p>
+
+    <h3>Email</h3>
+    <p>thienleminer20159@gmail.com</p>
+
+    <br>
+
+    <h2>Skill</h2>
+    <!--
+        ul -> inordered list
+        ol -> ordered list
+        li -> list item
+    -->
+    <ul>
+        <li class="skill-item">not unlocked yet ^ ^</li>
+    </ul>
+
+    <h2>Lessons</h2>
+    <ol type="1">
+        <li>Overview: Web and Internet</li>
+        <li>VS Code and GitHub</li>
+        <li>Overview: UI/UX Design</li>
+        <li>HTML Structure</li>
+    </ol>
+
+    <h3>FaceBook Link</h3>
+    <!--
+        a -> anchor tag.   
+
+        target = " _self" -> mở đường dẫn trên tab hiện tại.
+        target = " _blank" -> mở đường dẫn trên tab mới.
+    -->
+    <p>Link: <a href="https://www.facebook.com/ThatBoyXuki/" target="_blank">Click here to navigate</a></p>
+
+    <h3>Education</h3>
+    <p>University</p>
+
+    <h3>Experience</h3>
+    <p>No yet</p>
+    
+
+    <h3>Position</h3>
+    <p>Sinh vien</p>
+
+    <h3>Personal development orientation</h3>
+    <p>Back-end web developer</p>
+
+    <h3>
+        My favorite song
+    </h3>
+    <audio controls="controls">
+        <source src="./audio/legends-never-die.mp3">
+
+
+    </audio>
+
+    <h2>Projects</h2>
+    <table>
+        <tr>
+            <th>No.</th>
+            <th>Project Name</th>
+            <th>Completed Date</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Portfolio</td>
+            <td>9/11/2021</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Cat City Registration</td>
+            <td>11/11/2021</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Twitter Page</td>
+            <td>16/11/2021</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
