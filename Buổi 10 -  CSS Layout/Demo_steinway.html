@@ -1,0 +1,105 @@
+<!-- article là thể lớn chứa các section bên trong
+    section nằm bên trong chứa các phần nội dung liên quan
+    aside là menu điều hướng(gắn link hay gì đó để qua trang khác) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steinway & Sons</title>
+    <style>
+        #logo-img {
+
+            /* over flow khi nội dung vượt quá giới hạn chứa tối đa */
+
+            /* display block trên 1 hàng và có thể chỉnh sửa dc*/
+            display: block;
+            margin: auto;
+            width: 40px;
+            /* padding-left: 45%; */
+        }
+
+        h1 {
+            font-family: serif;
+            display: block;
+            text-align: center;
+            letter-spacing: 10px;
+        }
+
+        ul {
+            display: block;
+            width: 55%;
+            margin: auto;
+        }
+
+        li {
+            font-weight: 700;
+            font-family: 'Times New Roman', Times, serif ;
+            display: inline;
+            padding: 20px;
+        }
+
+        p {
+            text-align: center;
+            width: 50%;
+            margin: auto;
+
+        }
+
+        #a {
+            margin: auto;
+            width: 300px;
+
+        }
+
+        #b {
+            margin: auto;
+            width: 300px;
+
+        }
+
+        #c {
+            margin: auto;
+            width: 300px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <img id="logo-img" src="./img/ss-lyre2.svg" alt="">
+    <h1> Steinway & Sons </h1>
+    <br>
+    <article>
+        <section>
+            <ul>
+                <li>BUYER'S GUIDE</li>
+                <li>PIANOS</li>
+                <li>SPIRIO</li>
+                <li>MUSIC & ARTISTS</li>
+                <li>EDUCATION</li>
+                <li>CAREERS</li>
+            </ul>
+        </section>
+        <br>
+        <section>
+            <p>
+                For over 160 years, STEINWAY & SONS has been dedicated to making the finest pianos in the world. Our
+                pioneering handcrafted methods are still employed today to ensure our uncompromising standards of
+                quality,
+                in turn ensuring that the STEINWAY remains the peerless instrument of uncompromising expression.
+            </p>
+        </section>
+        <br>
+        <section>
+            <img src="./img/buyers-guide-square2.jpg" alt="">
+            <img src="./img/floor_template_square2.jpg" alt="">
+            <img src="./img/STS_Spirio_r_Close_Up_with_iPad_RGB_square.jpg" alt="">
+        </section>
+    </article>
+</body>
+
+</html>
