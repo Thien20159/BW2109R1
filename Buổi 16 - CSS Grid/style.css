@@ -1,0 +1,63 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    display: block;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 50px;
+}
+.container{
+    width: 70%;
+    height: 70%;
+    background-color: cyan;
+    margin: auto;
+    display: grid;
+    /* grid-template-columns: auto 3fr 1fr 20px 10%; */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-column-gap: 200px;
+    grid-row-gap:100px; */
+    grid-gap: 10px 20px;
+    /* grid-column-gap là tạo khoảng cách giữa các cột
+    grid-column-gap là tạo khoảng cách theo hàng */
+
+}
+div{
+    /* justify-self: center; */
+    /* align-self: center; */
+    font-size: 36px;
+    font-weight: 900;
+    grid-template-areas:
+    "header header header"
+    "ads content sidebar"
+    "footer footer footer";
+}
+#item-1{
+    grid-area: header;
+    /* justify-self: center; */
+    background-color: blue;
+}
+#item-2{
+    grid-area: ads;
+    /* align-self: center; */
+    background-color: blueviolet;
+}
+#item-3{
+    grid-area: content;
+    background-color: brown;
+}
+#item-4{
+    grid-area: sidebar;
+    background-color: chartreuse;
+}
+#item-5{
+    grid-area: footer;
+    background-color: darkorange;
+    /* grid-column:2/4;
+    grid-row: 2/4; */
+}
