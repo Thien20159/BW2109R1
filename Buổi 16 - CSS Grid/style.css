@@ -1,4 +1,4 @@
-html, body{
+    html, body{
     width: 100%;
     height: 100%;
     padding: 0;
@@ -12,10 +12,11 @@ h1{
     margin-bottom: 50px;
 }
 .container{
+
     width: 70%;
     height: 70%;
     background-color: cyan;
-    margin: auto;
+    margin-top: 200px;
     display: grid;
     /* grid-template-columns: auto 3fr 1fr 20px 10%; */
     grid-template-columns: 1fr 1fr 1fr;

@@ -1,0 +1,338 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(26, 148, 255);
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.5fr 0.13fr 0.4fr 0.12fr 0.7fr;
+    grid-template-rows: 1.8fr 1.2fr ;
+}
+div{
+    grid-template-areas:
+    "a b c d e f g"
+    "h i j k l m n";
+}
+#item-1{
+    align-self: end;
+    justify-self: center;
+    grid-area: a;
+    /* background-color: blue; */
+}
+#logo-tiki{
+    width: 60px;
+    height: 40px;
+}
+
+#item-2{
+    align-self: end;
+    grid-area: b;
+    /* align-self: center; */
+    /* background-color: blueviolet; */
+}
+input{
+    border: 1px solid white;
+    border-radius: 2.5px;
+    width:100%;
+    height: 35px;
+}
+#item-3{
+    align-self: end;
+    grid-area: c;
+    /* background-color: brown; */
+}
+#input-none{
+    display: none;
+}
+#img-search{
+    padding-top: 8px;
+    padding-right: 9px;
+    height: 20px;
+    width: 20px;
+}
+#button-search{
+    padding-bottom: 12px;
+    padding-left: 5px;
+    color: white;
+    border: 1px solid rgb(13, 92, 182);
+    background-color: rgb(13, 92, 182);
+    width:120px;
+    height: 39px;
+}
+#item-4{
+    align-self: end;
+    grid-area: d;
+    /* background-color: chartreuse; */
+}
+#img-avatar{
+    width: 32px;
+    height: 32px;
+}
+
+#item-5{
+    padding-bottom: 4px;
+    align-self: end;
+    /* background-color: mediumturquoise; */
+    grid-area: e;
+}
+#account{
+    font-size: 13px;
+    color: white;
+}
+#name{
+    font-size: 14px;
+    color: white;
+}
+#item-6{
+    align-self: end;
+    grid-area: f;
+}
+#item-7{
+    padding-bottom: 5px;
+    color: white;
+    font-size: 13px;
+    align-self: end;
+    grid-area: g;
+}
+#item-8{
+    justify-self: center;
+    align-self: start;
+    grid-area: h;
+    /* background-color: rgb(37, 7, 7); */
+}
+#img-freeship{
+    width: 83px;
+    height: 12px;
+}
+#item-9{
+    align-self: center;
+    color: white;
+    font-size: 11px;
+    grid-area: i;
+    /* background-color: darkgrey; */
+}
+#item-10{
+    grid-area: j;
+    /* background-color: gold; */
+}
+#item-11{
+    grid-area: k;
+    /* background-color: limegreen; */
+}
+#item-12{
+    grid-area: l;
+    /* background-color: magenta; */
+}
+#item-13{
+    align-self: center;
+    grid-area: m;
+    grid-column:6/8;
+}
+
+#selling-with-tiki{
+    height: 21px;
+    font-size: 12px;
+    color: white;
+    border: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+/*  */
+/*  */
+/*  */
+
+.content-1{
+    font-weight: 400;
+    color: black;
+    font-size: 14px;
+    width: 100%;
+    height: 7%;
+    background-color: rgb(255, 255, 255);
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns: 1.4fr 0.8fr 0.8fr 0.8fr 0.8fr 0.8fr 0.7fr 0.7fr 1fr 1.1fr 0.6fr 0.6fr 1.8fr;
+    grid-template-rows: 1fr;
+}
+#a-1{
+    text-decoration-color: white;
+    padding-left:80px ;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-2{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-3{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-4{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-5{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-6{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-7{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-8{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-9{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-10{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-11{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-12{
+    text-decoration-color: white;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+#a-13{
+    text-decoration-color: white;
+    padding-right: 140px;
+    color: black;
+    justify-self: center;
+    align-self: center;
+}
+.content-2{
+    width: 100%;
+    height: 49%;
+    background-color: #efefef;
+    /* margin: auto; */
+    display: grid;
+    grid-template-columns:2fr 1.2fr;
+    grid-template-rows: 1fr;
+}
+#img-ads-1{
+    padding-right: 20px;
+    justify-self: end;
+    align-self: center;
+}
+#img-ads-2{
+    padding-right: 20px;
+    justify-self: start;
+    align-self: center;
+}
+.content-3{
+    /* margin-top:50px ; */
+    width: 100%;
+    height: 90%;
+    background-color: #8cd1fa;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+.content-6{
+    grid-template-areas:
+    "header header header header header header"
+    "img1 img2 img3 img4 img5 img6"
+    "price1 price2 price3 price4 price5 price6"
+    "quantity1 quantity2 quantity3 quantity4 quantity5 quantity6";
+}
+#Giá-sốc{
+    grid-area: header;
+}
+ #content3-img-1{
+    grid-area:img1;
+}
+#content3-img-2{
+    grid-area:img2;
+}
+#content3-img-3{
+    grid-area:img3;
+}
+#content3-img-4{
+    grid-area:img4;
+}
+#content3-img-5{
+    grid-area:img5;
+}
+#content3-img-6{
+    grid-area:img6;
+}
+#price-1{
+    grid-area:price1;
+}
+#price-2{
+    grid-area:price2;
+}
+#price-3{
+    grid-area:price3;
+}
+#price-4{
+    grid-area:price4;
+}
+#price-5{
+    grid-area:price5;
+}
+#price-6{
+    grid-area:price6;
+}
+#quantity-1{
+    grid-area:quantity1;
+}
+#quantity-1{
+    grid-area:quantity2;
+}
+#quantity-1{
+    grid-area:quantity3;
+}
+#quantity-1{
+    grid-area:quantity4;
+}
+#quantity-1{
+    grid-area:quantity5;
+}
+#quantity-1{
+    grid-area:quantity6;
+}
+
+
+
